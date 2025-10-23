@@ -40,8 +40,8 @@ $$
 
 2. **Performance Metrics:**
 
-- **Memory Stall Cycles**:  
-  The number of cycles the processor is stalled waiting for memory access.
+- **Memory Stall Cycles**  
+  The number of cycles the processor is stalled waiting for memory access:
 
   $$
   \text{Memory stall cycles} = \text{Number of misses} \times \text{Miss penalty}
@@ -53,12 +53,14 @@ $$
   \text{Memory stall cycles} = IC \times \left( \frac{\text{Memory accesses}}{\text{Instruction}} \right) \times \text{Miss rate} \times \text{Miss penalty}
   $$
 
-- **Misses per Instruction (MPI)**:  
+- **Misses per Instruction (MPI)**
+
   $$
   \text{MPI} = \text{Miss rate} \times \text{Memory accesses per instruction}
   $$
 
-- **CPU Execution Time**:  
+- **CPU Execution Time**
+
   $$
   \text{CPU time} = (\text{CPU clock cycles} + \text{Memory stall cycles}) \times \text{Clock cycle time}
   $$
