@@ -31,9 +31,15 @@ WSCs are massive, highly coupled systems designed for Internet services, embodyi
 
 ### C. Cost and Cloud Computing
 
-1.  **Efficiency Metric (PUE):** The efficiency of a WSC is measured by the Power Utilization Effectiveness (PUE):
-    $$ PUE = \frac{Total\: Facility\: Power}{IT\: Equipment\: Power} $$
-    The median PUE for data centers is 1.69, meaning the overhead consumes nearly 70% of the IT power, but Google's fleet achieved an average PUE of 1.12 by 2017.
+1. **Efficiency Metric (PUE):**  
+The efficiency of a **Warehouse-Scale Computer (WSC)** is measured using the Power Usage Effectiveness (PUE), defined as:
+
+$$
+\text{PUE} = \frac{\text{Total Facility Power}}{\text{IT Equipment Power}}
+$$
+
+The **median PUE** for data centers is **1.69**, meaning that **about 70% of the power** is overhead (cooling, lighting, etc.).  
+In contrast, **Google's data center fleet** achieved an average **PUE of 1.12 by 2017**, reflecting high efficiency.
 2.  **Cloud Computing (Utility Computing):** WSCs enable **cloud computing**, realizing the goal of computing as a utility.
     *   Cloud services like Amazon EC2 (Elastic Computer Cloud) leverage massive economies of scale (e.g., 5–7 times reduction in storage and networking costs compared to smaller data centers).
     *   VMs (Virtual Machines) are used to offer isolation between customers, provide multiple price points by controlling physical processor access, and hide hardware identity.
