@@ -32,8 +32,11 @@ The memory hierarchy provides an economical solution to the goal of having an in
 
 Performance is evaluated using quantitative metrics, often based on extending the CPU execution time equation to include memory stalls.
 
-1.  **Average Memory Access Time (AMAT):**
-    $$ Average\: memory-access\: time = Hit\: time + Miss\: rate \times Miss\: penalty $$
+1. **Average Memory Access Time (AMAT):**
+
+$$
+\text{AMAT} = \text{Hit time} + (\text{Miss rate} \times \text{Miss penalty})
+$$
 
 2.  **Performance Metrics:**
     *   **Memory Stall Cycles:** The number of cycles the processor is stalled waiting for memory access.
