@@ -1,4 +1,4 @@
-### Topic 2 :Memory Hierarchy & Optimization
+## Topic 2 :Memory Hierarchy & Optimization
 
 ### I. Fundamentals and Structure of the Memory Hierarchy
 
