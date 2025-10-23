@@ -1,4 +1,4 @@
-## Lecture 1: Quantitative Design & Performance + ISA Review (RISC-V)
+## Topic 1: Quantitative Design & Performance + ISA Review (RISC-V)
 
 ### I. The Necessity of a Quantitative Approach
 
