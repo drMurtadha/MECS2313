@@ -59,7 +59,7 @@ $$
 - **Cache Index Size**  
   To calculate the number of sets (or index entries) in a cache:
 
-  **2^index** = Cache size ÷ (Block size × Set associativity)
+  **2ⁿ (index) ** = Cache size ÷ (Block size × Set associativity)
     *   **The Three C's Model of Misses:** Classifies misses to guide optimization:
         *   **Compulsory (Cold-start):** First access to a block.
         *   **Capacity:** Occurs because the cache cannot hold all needed blocks during program execution.
