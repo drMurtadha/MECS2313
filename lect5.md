@@ -1,5 +1,5 @@
 
-# Warehouse-Scale Computers (WSCs) and Domain-Specific Architectures (DSAs)
+# Topic 5: Warehouse-Scale Computers (WSCs) and Domain-Specific Architectures (DSAs)
 ## I. Warehouse-Scale Computers (WSCs)
 
 WSCs are massive, highly coupled systems designed for Internet services, embodying the philosophy that **"The datacenter is the computer"**.
