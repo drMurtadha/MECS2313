@@ -16,3 +16,5 @@ The course will blend lectures, project-based tasks, and simulation-based explor
 ## [Topic 1](lect1.md)
 ## [Topic 2](lect2.md)
 ## [Topic 3](lect3.md)
+## [Topic 4](lect4.md)
+## [Topic 5](lect5.md)
