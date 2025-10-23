@@ -29,10 +29,14 @@ Architects rely on core principles to analyze and improve system designs:
 
 1.  **Performance Measurement:** Performance can be measured by **response time** (time between start and completion of an event) or **throughput** (total amount of work done in a given time).
 2.  **Amdahl’s Law:** Used to calculate the overall speedup gained from enhancing a portion of a task.
-    $$ Speedup_{overall} = \frac{1}{(1 - Fraction_{enhanced}) + \frac{Fraction_{enhanced}}{Speedup_{enhanced}}} $$
+    $$
+    \text{Speedup}_{\text{overall}} = \frac{1}{(1 - \text{Fraction}_{\text{enhanced}}) + \frac{\text{Fraction}_{\text{enhanced}}}{\text{Speedup}_{\text{enhanced}}}}
+    $$
     Amdahl’s Law shows the **law of diminishing returns**: improving a portion of the computation yields smaller incremental speedup gains as more improvements are added.
-3.  **The Processor Performance Equation:** CPU execution time is calculated as:
-    $$ CPU time = Instruction\ count \times Cycles\ per\ instruction \times Clock\ cycle\ time $$
+4.  **The Processor Performance Equation:** CPU execution time is calculated as:
+    $$
+    \text{CPU time} = \text{Instruction count} \times \text{Cycles per instruction} \times \text{Clock cycle time}
+    $$
     This equation relies on:
     *   **Instruction Count (IC):** Determined by Instruction Set Architecture (ISA) and compiler technology.
     *   **Cycles Per Instruction (CPI):** Determined by organization (microarchitecture) and ISA.
