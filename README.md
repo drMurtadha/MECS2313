@@ -8,7 +8,7 @@ This course explores advanced architectural concepts and performance analysis te
 *	Data-level and thread-level parallelism using SIMD, GPU, and multicore systems
 *	Warehouse-scale computing and cloud-scale architecture (e.g., Google, AWS)
 *	Domain-specific architectures including TPU, DNN accelerators, and mobile vision processors
-*	RISC-V instruction set foundations (Appendix A)
+*	RISC-V instruction set foundations 
 
 The course will blend lectures, project-based tasks, and simulation-based explorations of current architectural challenges in scalable and energy-efficient computing.combination of lectures, active learning, and project-based assignments, students will gain both conceptual understanding and hands-on experience in modern architecture paradigms.
 
