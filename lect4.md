@@ -1,5 +1,5 @@
 
-# Thread-Level Parallelism (TLP) and Data-Level Parallelism (DLP)
+# Topic 4: Thread-Level Parallelism (TLP) and Data-Level Parallelism (DLP)
 ## I. Data-Level Parallelism (DLP)
 
 Data-level parallelism arises when there are many data items that can be operated on at the same time. Architectures exploiting DLP apply a single instruction to a collection of data in parallel. This style of parallelism is highly valuable for multimedia processing, image/sound processing, scientific matrix calculations, and machine learning algorithms.
