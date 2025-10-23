@@ -21,5 +21,5 @@ By integrating theoretical foundations with practical applications, the course e
 A prior background in undergraduate-level computer architecture (or equivalent) is required. Through a combination of lectures, active learning, and project-based assignments, students will gain both conceptual understanding and hands-on experience in modern architecture paradigms.
 
 ## Notes: 
-## [Chapter 1a](fund_quant_design.md)
+## [Topic 1](lect1.md)
 ## [Chapter 1b](benchmarks.md)
