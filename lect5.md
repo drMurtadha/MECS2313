@@ -25,7 +25,7 @@ WSCs are massive, highly coupled systems designed for Internet services, embodyi
     *   WSC storage software often uses **relaxed consistency models** (like eventual consistency) rather than strictly following ACID requirements, enabling easier scaling.
 2.  **Memory Hierarchy and Locality:**
     *   The WSC memory hierarchy includes local server DRAM, Flash, and Disk, extending to rack-level and array-level resources connected by networks.
-    *   Network overhead drastically impacts latency and bandwidth. Local server DRAM access (0.1 $\mu$s) is much faster than rack DRAM (300 $\mu$s).
+    *   Network overhead drastically impacts latency and bandwidth. Local server DRAM access (0.1 µs) is much faster than rack DRAM (300 µs).
     *   **Locality is vital** for performance; if 9% of accesses are within the rack and 1% are within the array, the average memory access time can be hundreds of times slower than if all accesses were local.
 3.  **Networking:** WSCs use a **hierarchy of networks**. Custom switches built from commodity chips are employed to scale bandwidth, often using centralized control rather than traditional decentralized routing protocols. Google’s Jupiter switch uses a **Clos topology**, offering fault tolerance and high bisection bandwidth.
 
