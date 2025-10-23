@@ -8,8 +8,16 @@ The memory hierarchy provides an economical solution to the goal of having an in
     *   The hierarchy is organized into levels, where each level is **smaller, faster, and more expensive per byte** than the level below it.
     *   The aim is to offer memory performance approaching the fastest level and cost approaching the cheapest level.
     *   The **inclusion property** states that data contained in a lower level (farther from the processor) are typically a superset of the next higher level; this is always required for the lowest level (main memory or secondary storage).
-    *   Levels in a typical server memory hierarchy range drastically in size and speed (time units shift from picoseconds to milliseconds): Registers (300 ps, 4000 bytes) $\rightarrow$ L1 Cache (1 ns, 64 KiB) $\rightarrow$ L2 Cache (3–10 ns, 256 KiB) $\rightarrow$ L3 Cache (10–20 ns, 8–32 MiB) $\rightarrow$ Memory (50–100 ns, 8–64 GiB) $\rightarrow$ Flash Storage (100–200 $\mu$s, 1–16 TiB) $\rightarrow$ Disk Storage (5–10 ms, 16–64 TiB).
+    *   Levels in a typical server memory hierarchy range drastically in size and speed  
+  (time units shift from picoseconds to milliseconds):
 
+  - Registers (300 ps, 4000 bytes)  
+    → L1 Cache (1 ns, 64 KiB)  
+    → L2 Cache (3–10 ns, 256 KiB)  
+    → L3 Cache (10–20 ns, 8–32 MiB)  
+    → Memory (50–100 ns, 8–64 GiB)  
+    → Flash Storage (100–200 µs, 1–16 TiB)  
+    → Disk Storage (5–10 ms, 16–64 TiB)
 2.  **Key Terms and Concepts:**
     *   A **cache hit** occurs when requested data is found in the cache.
     *   A **cache miss** occurs when data is not found; a fixed-size **block** (or line) is retrieved from the lower level.
