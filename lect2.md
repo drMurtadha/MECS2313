@@ -38,16 +38,30 @@ $$
 \text{AMAT} = \text{Hit time} + (\text{Miss rate} \times \text{Miss penalty})
 $$
 
-2.  **Performance Metrics:**
-    *   **Memory Stall Cycles:** The number of cycles the processor is stalled waiting for memory access.
-        $$ Memory\: stall\: cycles = Number\: of\: misses \times Miss\: penalty $$
-        Or, relative to instruction count (IC):
-        $$ Memory\: stall\: cycles = IC \times \frac{Memory\: accesses}{Instruction} \times Miss\: rate \times Miss\: penalty $$
-    *   **Misses per instruction (MPI):**
-        $$ Misses\: per\: instruction = Miss\: rate \times Memory\: access\: per\: instruction $$
-    *   **CPU Execution Time:**
-        $$ CPU\: execution\: time = (CPU\: clock\: cycles + Memory\: stall\: cycles) \times Clock\: cycle\: time $$
+2. **Performance Metrics:**
 
+- **Memory Stall Cycles**:  
+  The number of cycles the processor is stalled waiting for memory access.
+
+  $$
+  \text{Memory stall cycles} = \text{Number of misses} \times \text{Miss penalty}
+  $$
+
+  Or, relative to instruction count (IC):
+
+  $$
+  \text{Memory stall cycles} = IC \times \left( \frac{\text{Memory accesses}}{\text{Instruction}} \right) \times \text{Miss rate} \times \text{Miss penalty}
+  $$
+
+- **Misses per Instruction (MPI)**:  
+  $$
+  \text{MPI} = \text{Miss rate} \times \text{Memory accesses per instruction}
+  $$
+
+- **CPU Execution Time**:  
+  $$
+  \text{CPU time} = (\text{CPU clock cycles} + \text{Memory stall cycles}) \times \text{Clock cycle time}
+  $$
 3.  **Cache Organization Metrics:**
     *   **Cache Index Size:**
         $$ 2^{index} = \frac{Cache\: size}{Block\: size \times Set\: associativity} $$
