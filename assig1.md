@@ -68,7 +68,7 @@ Summarize the architectural trade-offs (cost vs performance vs power) and how RI
 
 ## ⏰ Deadline
 
-**[Insert Deadline Here, e.g., 15 November 2025, 11:59 PM (GMT+8)]**
+**[6 November 2025, 11:59 PM (GMT+8)]**
 
 ---
 
