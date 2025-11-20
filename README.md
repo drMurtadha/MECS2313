@@ -13,8 +13,11 @@ This course explores advanced architectural concepts and performance analysis te
 The course will blend lectures, project-based tasks, and simulation-based explorations of current architectural challenges in scalable and energy-efficient computing.combination of lectures, active learning, and project-based assignments, students will gain both conceptual understanding and hands-on experience in modern architecture paradigms.
 
 ## Notes: 
-## [Topic 1](lect1.md)
-## [Topic 2](lect2.md)
-## [Topic 3](lect3.md)
-## [Topic 4](lect4.md)
-## [Topic 5](lect5.md)
+### [Topic 1](lect1.md)
+### [Topic 2](lect2.md)
+### [Topic 3](lect3.md)
+### [Topic 4](lect4.md)
+### [Topic 5](lect5.md)
+
+## Assignments:
+### [Assignment 1](lect1.md)
