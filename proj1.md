@@ -3,7 +3,7 @@
 ## Group Assignment (Project-Based Learning – CLO2)
 
 ### Topic: Memory Hierarchy Design: Principles, Technologies, Optimizations, and SDRAM Power Reduction Strategies
-
+---
 ⸻
 
 1. Group Structure
@@ -175,10 +175,3 @@ This assignment directly supports CLO2 by requiring students to:
 
 ⸻
 
-If you want, I can also prepare:
-	•	Student instruction PDF
-	•	Editable slide template
-	•	Video script template
-	•	Group allocation list
-
-Just let me know.
