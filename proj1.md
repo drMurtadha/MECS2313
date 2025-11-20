@@ -4,14 +4,13 @@
 
 ### Topic: Memory Hierarchy Design: Principles, Technologies, Optimizations, and SDRAM Power Reduction Strategies
 ---
-⸻
+
 
 1. Group Structure
 	•	5 groups
 	•	3 members per group
 	•	Collaborative work allowed, but each group must produce original analysis.
-
-⸻
+---
 
 2. Assignment Overview
 
@@ -28,7 +27,7 @@ You must deliver:
 	3.	Slide Deck
 	4.	Submission of YouTube Link inside the report and in the submission form
 
-⸻
+---
 
 3. Assignment Requirements
 
@@ -43,7 +42,7 @@ Include:
 	•	A simple profiling example (any programming language)
 	•	e.g., array stride experiment, cache locality benchmark
 
-⸻
+---
 
 B. Memory Technology Analysis (SRAM, DRAM, Flash)
 
@@ -59,7 +58,7 @@ Explain how software access style affects:
 	•	DRAM row-buffer hits
 	•	Flash responsiveness under sequential vs random I/O
 
-⸻
+---
 
 C. Advanced Cache Optimizations
 
@@ -75,7 +74,7 @@ For each optimization:
 	2.	Show how software patterns influence effectiveness
 	3.	Provide a real example (matrix multiplication, sorting, etc.)
 
-⸻
+---
 
 D. SDRAM Power Consumption Reduction
 
@@ -92,7 +91,7 @@ Explain:
 	•	improving locality
 	•	reducing random accesses
 
-⸻
+---
 
 E. Case Study: Intel Core i7 6700 vs ARM Cortex-A53
 
@@ -104,7 +103,7 @@ Compare both memory architectures:
 
 Discuss how different software categories benefit from each architecture.
 
-⸻
+---
 
 F. YouTube Presentation Requirement
 
@@ -124,7 +123,7 @@ Place the YouTube link:
 	•	In the submission form
 	•	Inside the slide deck
 
-⸻
+---
 
 4. Deliverables Checklist
 
@@ -149,22 +148,23 @@ Submit as one ZIP file:
 	•	Slides (.pptx or .pdf)
 	•	YouTube link included in all documents
 
-⸻
+---
 
 5. Assessment Rubric (100%)
 
-Criteria	Weight	Description
-1. Technical Understanding of Memory Hierarchy (CLO2)	20%	Accurate explanation of locality and hierarchy with software interaction emphasis.
-2. Analysis of Memory Technologies	15%	Clear comparison of SRAM, DRAM, Flash with correct DRAM internal details.
-3. Cache Optimization Analysis	20%	At least 5 optimizations, linked to actual software behaviour.
-4. SDRAM Power Analysis	15%	Strong explanation of static/dynamic power and realistic software-driven effects.
-5. Case Study (Intel i7 vs ARM A53)	10%	Correct, insightful comparison with software workload relevance.
-6. YouTube Video Presentation	10%	Clarity, professionalism, technical depth, group participation.
-7. Report Quality & Citations	10%	Structure, grammar, diagrams, IEEE citation style.
+| **Criteria** | **Weight** | **Description** |
+|--------------|------------|-----------------|
+| **1. Technical Understanding of Memory Hierarchy (CLO2)** | 20% | Accurate explanation of locality and hierarchy with software interaction emphasis. |
+| **2. Analysis of Memory Technologies** | 15% | Clear comparison of SRAM, DRAM, Flash with correct DRAM internal details. |
+| **3. Cache Optimization Analysis** | 20% | At least 5 optimizations, linked to actual software behaviour. |
+| **4. SDRAM Power Analysis** | 15% | Strong explanation of static/dynamic power and realistic software-driven effects. |
+| **5. Case Study (Intel i7 vs ARM A53)** | 10% | Correct, insightful comparison with software workload relevance. |
+| **6. YouTube Video Presentation** | 10% | Clarity, professionalism, technical depth, group participation. |
+| **7. Report Quality & Citations** | 10% | Structure, grammar, diagrams, IEEE citation style. |
 
 Total: 100%
 
-⸻
+---
 
 6. CLO2 Alignment
 
@@ -173,5 +173,5 @@ This assignment directly supports CLO2 by requiring students to:
 	•	Evaluate memory hierarchy design choices using real program patterns
 	•	Demonstrate understanding through profiling experiments and case studies
 
-⸻
+---
 
