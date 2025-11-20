@@ -20,4 +20,7 @@ The course will blend lectures, project-based tasks, and simulation-based explor
 ### [Topic 5](lect5.md)
 
 ## Assignments:
-### [Assignment 1](lect1.md)
+### [Assignment 1](assig1.md)
+
+## Projects:
+### [Project 1](assig1.md)
